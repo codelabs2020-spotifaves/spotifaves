@@ -21,5 +21,28 @@
                   <td>{{time}}</td>
               </tr>
           {{/items}}
+          <!-- The core Firebase JS SDK is always required and must be listed first -->
+          <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
+
+          <!-- TODO: Add SDKs for Firebase products that you want to use
+               https://firebase.google.com/docs/web/setup#available-libraries -->
+          <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-analytics.js"></script>
+
+          <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+              apiKey: "AIzaSyDXAVFqBzgRrhyNZs4F0REs1scUWAlrwas",
+              authDomain: "spotifaves.firebaseapp.com",
+              databaseURL: "https://spotifaves.firebaseio.com",
+              projectId: "spotifaves",
+              storageBucket: "spotifaves.appspot.com",
+              messagingSenderId: "360874438199",
+              appId: "1:360874438199:web:d2639b4d2d4ab902b459b2",
+              measurementId: "G-JQZ1MQGGQ9"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+          </script>
   </table>
 </script>
