@@ -2,7 +2,7 @@
 
     function login(callback) {
         var CLIENT_ID = '73892e8f2c464227acc8a6fa82c2fd17';
-        var REDIRECT_URI = 'http://jmperezperez.com/spotify-oauth-jsfiddle-proxy/';
+        var REDIRECT_URI = 'http://jmperezperez.com/spotify-oauth-jsfiddle-proxy/proxy.html';
         function getLoginURL(scopes) {
             return 'https://accounts.spotify.com/authorize?client_id=' + CLIENT_ID +
               '&redirect_uri=' + encodeURIComponent(REDIRECT_URI) +
