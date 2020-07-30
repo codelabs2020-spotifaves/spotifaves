@@ -1,7 +1,32 @@
+.item{
+  float:left;
+}
+.item2{
+    float:right;
+}
+.image-cropper {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #1DB954;
+
+}
+/* Container holding the image and the text */
 .container {
-    margin: 1em;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-img {
-    margin-bottom: 1em;
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
