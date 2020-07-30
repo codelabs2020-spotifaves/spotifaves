@@ -23,130 +23,127 @@
   <link href="css/scrolling-nav.css" rel="stylesheet">
 
 </head>
-<body id="page-top">
+<body id="page-top" style="font-family: 'Montserrat', sans-serif;"">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" style= "background-color:black;">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Spotifaves</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color:white; text-align:left">Spotifaves</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse" id="navbarResponsive" style="text-align:right">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about" style="color:white;">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#login">Login</a>
+            <a class="nav-link js-scroll-trigger" href="#login" style="color:white;">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact" style="color:white;">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-<!--  <header class="bg-primary text-rgb(82, 190, 128)"> -->
+  <!--  <header class="bg-primary text-rgb(82, 190, 128)"> -->
     <header style="background-color:rgb(0, 0, 0);"></h1>
-    <div class="container text-center">
-      <section style="color:white;"></h1>
-      <h1>Welcome to Spotifaves</h1>
-      <p class="lead">Please sign in to Spotify to find your top 10 most listened songs.</p>
-    </div>
-  </header>
-
-
-  <section id="about"style="background-color:rgb(0, 0, 0);"></h1>
-    <section style="color:white;"></h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 style="text-align: center;">About our project</h2>
-          <p class="lead">Spotifaves: A Breakdown</p>
-          <ul>
-            <li>Team Members: Mekedes Dejenie, Jasmine Ng</li>
-            <li>Mentor: Shakeel Mohamed</li>
-            <li>Created during CodeLabs 2020</li>
-            <li>Tech Stack: The languages we have used for this project were mainly HTML, JavaScript, and CSS.
-                We also had to learn OAuth to connect our application to Spotify. And to make
-                our webpage aesthetically pleasing, we used bootstrap.</li>
-          </ul>
+      <div class="container text-center">
+        <section style="color:white;"></h1>
+          <h1>Welcome to Spotifaves💿</h1>
+          <p class="lead">Please sign in to Spotify to find your top 10 most listened to songs</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="login" style="background-color:rgb(0, 0, 0);"></h1>
-    <section style="color:white;"></h1>
-    <section style="text-align: center;"></h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 style="text-align: center;">Login page</h2>
-          <button class="btn btn-primary" id="btn-login" style= "background-color:rgb(132, 189,0); color:white">Login</button>
-          <div id="result">Login with your Spotify email and password.</div>
-        </div>
-        <script id="result-template" type="text/x-handlebars-template">
-          <table>
-            <thead>
-              <th>Album Art</th>
-              <th>Title</th>
-              <th>Artist</th>
-              <th>Duration</th>
-            </thead>
-            <tbody>
-              {{#items}}
-              <tr>
-                <td><img src="{{album.images.2.url}}"></td>
-                <td>{{name}}</td>
-                <td>{{artists.0.name}}</td>
-                <td>{{time}}</td>
-                {{/items}}
-              </table>
-            </script>
-        </section>
+      </header>
 
 
-            <section id="contact" style="background-color:rgb(0, 0, 0);"></h1>
-            <section style="color:white;"></h1>
-            <section style="text-align: center;"></h1>
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-8 mx-auto">
-                    <h2 style="text-align: center;">Contact us</h2>
-                    <h3 style="text-align: center;">Jasmine Ng</h3>
-                    <p class="lead">Email: jasltng@gmail.com</p>
-                    <p class="lead"> <a href="https://www.linkedin.com/in/jasmineng227/">Linkedin</a></p>
-                    <h4 style="text-align: center;">Mekedes Dejenie</h4>
-                    <p class="lead"> Email: dejeniemekedes@gmail.com</p>
-                    <p class="lead"> <a href="https://www.linkedin.com/in/mekedes-dejenie-aabb55168/">Linkedin</a></p>
-                  </div>
+      <section id="about"style="background-color:rgb(0, 0, 0);"></h1>
+        <section style="color:white;"></h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <h2 style="text-align: center;">About our Project</h2>
+                <p class="lead">Spotifaves: A Breakdown</p>
+                <ul>
+                  <li>Team Members: Mekedes Dejenie, Jasmine Ng</li>
+                  <li>Mentor: Shakeel Mohamed</li>
+                  <li>Created during CodeLabs 2020</li>
+                  <li>Tech Stack: The languages we have used for this project were mainly <strong>HTML</strong>, <strong>JavaScript</strong>, and <strong>CSS</strong>.
+                    We also had to learn <strong>OAuth</strong> to connect our application to Spotify.
+                    To make our webpage aesthetically pleasing, we used <strong>bootstrap</strong>.</li>
+                  </ul>
                 </div>
               </div>
-            </section>
+            </div>
+          </section>
 
-            <!-- Footer -->
-            <footer class="py-5 bg-dark">
-              <div class="container">
-                <p class="m-0 text-center text-white" style="font-size:45px;" style="font-family:Ariel;">Thank you for coming to our website.</p>
-              </div>
-              <!-- /.container -->
-            </footer>
+          <section id="login" style="background-color:rgb(0, 0, 0);"></h1>
+            <section style="color:white;"></h1>
+              <section style="text-align: center;"></h1>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                      <h2 style="text-align: center;">Login Page</h2>
+                      <button class="btn btn-primary btn-lg" id="btn-login" style="background-color:#1DB954; color:white; border-radius:500px; text-transform:uppercase; font-size:16px;">Login</button>
+                      <div id="result">Login with your Spotify email and password.</div>
+                    </div>
+                    <script id="result-template" type="text/x-handlebars-template">
+                      <table style="margin-left:auto; margin-right:auto">
+                        <thead>
+                          <th>Album Art</th>
+                          <th>Title</th>
+                          <th>Artist</th>
+                          <th>Duration</th>
+                        </thead>
+                        <tbody>
+                          {{#items}}
+                          <tr>
+                            <td><img src="{{album.images.2.url}}"></td>
+                            <td>{{name}}</td>
+                            <td>{{artists.0.name}}</td>
+                            <td>{{time}}</td>
+                            {{/items}}
+                          </table>
+                        </script>
+                      </section>
 
 
-            <!-- Bootstrap core JavaScript -->
-            <script src="vendor/jquery/jquery.min.js"></script>
-            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                      <section id="contact" style="background-color:rgb(0, 0, 0);"></h1>
+                        <section style="color:white; text-align:center"></h1>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-10 mx-auto">
+                                <h2 style="text-align: center;">Contact Us</h2>
+                                <h3 style="text-align: center;">Jasmine Ng</h3>
+                                <p class="lead">Email: jasltng@gmail.com</p>
+                                <p class="lead"> <a href="https://www.linkedin.com/in/jasmineng227/">Linkedin</a></p>
+                                <h3 style="text-align: center;">Mekedes Dejenie</h3>
+                                <p class="lead"> Email: dejeniemekedes@gmail.com</p>
+                                <p class="lead"> <a href="https://www.linkedin.com/in/mekedes-dejenie-aabb55168/">Linkedin</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
 
-            <!-- Plugin JavaScript -->
-            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                        <footer id="sticky-footer" class="py-4">
+                        <!--style="color:black; background-color:white; position:relative; width:100%; min-height:100%; bottom:0"> -->
+                          <div class="navbar fixed-bottom" style="color:white";>
+                            <h6>Keep jammin' 🎤</h6>
+                            <h6>Find us on <a href="https://spotifaves.github.io">Github</a></h6>
+                          </div>
 
-            <!-- Custom JavaScript for this theme -->
-            <script src="js/scrolling-nav.js"></script>
-            <script type="application/javascript" src="login.js"></script>
+                          <!-- Bootstrap core JavaScript -->
+                          <script src="vendor/jquery/jquery.min.js"></script>
+                          <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-          </body>
+                          <!-- Plugin JavaScript -->
+                          <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-          </html>
+                          <!-- Custom JavaScript for this theme -->
+                          <script src="js/scrolling-nav.js"></script>
+                          <script type="application/javascript" src="login.js"></script>
+
+                        </body>
+
+                        </html>
